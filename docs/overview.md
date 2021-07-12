@@ -7,7 +7,7 @@ sidebar_label: Overview
 
 ## What is OpenEBS?
 
-<img src="/docs/assets/svg/openebs-architecture.svg" alt="OpenEBS High Level Architecture" style="width:60%" align="right">
+<a href="/docs/assets/svg/openebs-architecture.svg" target="_blank"><img src="/docs/assets/svg/openebs-architecture.svg" alt="OpenEBS High Level Architecture" style="width:60%" align="right"></a>
 
 OpenEBS helps Developers and Platform SREs easily deploy Kubernetes Stateful Workloads that require fast and highly reliable [container attached storage](/docs/next/cas.html). 
 
@@ -36,7 +36,7 @@ The <a href="https://github.com/openebs/openebs/blob/master/ADOPTERS.md" target=
 
 OpenEBS manages the storage available on each of the Kubernetes nodes and uses that storage to provide Local or Distributed Persistent Volumes to Stateful workloads. 
 
-<img src="/docs/assets/data-engines-comparision.svg" alt="OpenEBS Data Engines" style="width:100%">
+<a href="/docs/assets/data-engines-comparision.svg" target="_blank"><img src="/docs/assets/data-engines-comparision.svg" alt="OpenEBS Data Engines" style="width:100%"></a>
 
 In case of [Local Volumes](#local-volumes): 
   - OpenEBS can create Persistent Volumes using raw block devices or partitions, or using sub-directories on Hostpaths or by using LVM,ZFS,sparse files. 

@@ -10,7 +10,7 @@ OpenEBS is the leading Open Source implementation of the [Container Attached Sto
 
 
 <br>
-<img src="/docs/assets/openebs-hld.svg" alt="drawing" width="80%"/>
+<a href="/docs/assets/openebs-hld.svg" target="_blank"><img src="/docs/assets/openebs-hld.svg" alt="drawing" width="80%"/></a>
 <br>
 
 OpenEBS has many components, which can be grouped into the following two broad categories.
@@ -33,7 +33,7 @@ OpenEBS follow micro-services model to implement the data engine where the funct
 The OpenEBS Data Engines comprise of the following layers:
 
 <br>
-<img src="/docs/assets/data-engine-overview.svg" alt="drawing" width="80%"/>
+<a href="/docs/assets/data-engine-overview.svg" target="_blank"><img src="/docs/assets/data-engine-overview.svg" alt="drawing" width="80%"/></a>
 <br>
 
 ### Volume Access Layer
@@ -100,7 +100,7 @@ The control plane in the context of OpenEBS refers to a set of tools or componen
 OpenEBS Control Plane comprises of a set of micro-services that are themselves managed by Kubernetes, making OpenEBS truly Kubernetes native. The configuration managed by the OpenEBS Control Plane is saved as Kubernetes custom resources. The functionality of the control plane can be decomposed into the various stages as follows:
 
 <br>
-<img src="/docs/assets/openebs-control-plane.svg" alt="drawing" width="80%"/>
+<a href="/docs/assets/openebs-control-plane.svg" target="_blank"><img src="/docs/assets/openebs-control-plane.svg" alt="drawing" width="80%"/></a>
 <br>
 
 ### YAML or Helm chart

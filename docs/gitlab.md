@@ -41,7 +41,7 @@ GitLab is a good solution for building On-Premise cloud native CI/CD platforms, 
 
 
 
-<img src="/docs/assets/svg/gitlab-deployment.svg" alt="GitLab deployment using OpenEBS" style="width:100%;">
+<a href="/docs/assets/svg/gitlab-deployment.svg" target=""><img src="/docs/assets/svg/gitlab-deployment.svg" alt="GitLab deployment using OpenEBS" style="width:100%;"></a>
 
 <br>
 

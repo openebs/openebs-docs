@@ -22,7 +22,7 @@ This guide explains the basic installation for CockroachDB operators on OpenEBS 
 
 <br>
 
-<img src="/docs/assets/svg/Local-PV-Distributed-device-cockroachdb.svg" alt="OpenEBS and CockroachDB" style="width:100%;">
+<a href="/docs/assets/svg/Local-PV-Distributed-device-cockroachdb.svg" target="_blank"><img src="/docs/assets/svg/Local-PV-Distributed-device-cockroachdb.svg" alt="OpenEBS and CockroachDB" style="width:100%;"></a>
 
 <br>
 

@@ -10,7 +10,7 @@ cStor is the recommended way to provide additional resilience to workloads via O
 
 When the stateful application desires the storage to provide high availability of data, cStor is configured to have 3 replicas where data is written synchronously to all the three replicas. As shown below, the cStor target is replicating the data to Node1 (R1), Node3(R2) and Node4(R3). The data is written to the three replicas before the response is sent back to the application. It is important to note that the replicas R1, R2 and R3 are copies of the same data written by the target, data is not striped across replicas or across nodes.
 
-<br><img src="/docs/assets/cstor-for-deployment.png" alt="cStor components" width="900"/>
+<br><a href="/docs/assets/cstor-for-deployment.png" target="_blank"><img src="/docs/assets/cstor-for-deployment.png" alt="cStor components" width="900"/></a>
 
 <br>
 
@@ -18,7 +18,7 @@ When the stateful application desires the storage to provide high availability o
 
 When the stateful application itself is taking care of data replication, it is typically deployed as a Kubernetes *statefulset*. For a statefulset, it is typical to configure cStor with single replica.  This is a use case where the use of LocalPV may be preferred.  
 
-<br><img src="/docs/assets/cstor-for-statefulset.png" alt="cStor components" width="900"/>
+<br><a href="/docs/assets/cstor-for-statefulset.png" target="_blank"><img src="/docs/assets/cstor-for-statefulset.png" alt="cStor components" width="900"/></a>
 
 <br>
 
@@ -38,7 +38,7 @@ cStor target runs as a pod and exposes an iSCSI LUN on 3260 port. It also export
 
 A cStor pool is local to a node in OpenEBS. A pool on a node is an aggregation of set of disks which are attached to that node. A pool contains replicas of different volumes, with not more than one replica of a given volume. OpenEBS scheduler at run time decides to schedule replica in a pool according to the policy. A pool can be expanded dynamically without affecting the volumes residing in it. An advantage of this capability is the thin provisioning of cStor volumes. A cStor volume size can be much higher at the provisioning time than the actual capacity available in the pool.
 
- <br><img src="/docs/assets/cstor-pool.png" alt="cStor components" width="400"/>
+ <br><a href="/docs/assets/cstor-pool.png" target="_blank"><img src="/docs/assets/cstor-pool.png" alt="cStor components" width="400"/></a>
 
 <br>
 
@@ -57,7 +57,7 @@ cStor pool is a group of individual pools with one pool instance on each partici
 
 Replication of data does not happen at the pool level. Synchronous data replication and rebuilding happen at volume level by the cStor target. Volume replicas are created on cStor pools located on different nodes. In the following example figure, a pool configuration is defined to have three replicas or three independent pools .
 
-<img src="/docs/assets/cstorpools.png" alt="cStor Pools in OpenEBS" width="700"/>
+<a href="/docs/assets/cstorpools.png" target="_blank"><img src="/docs/assets/cstorpools.png" alt="cStor Pools in OpenEBS" width="700"/></a>
 
 <br>
 
@@ -65,7 +65,7 @@ Replication of data does not happen at the pool level. Synchronous data replicat
 
 Storage administrators or DevOps administrators first build cStor pools using discovered disks on the designated nodes. Once the pools are built, they are used to design and build storage classes. Application developers then use storage class to dynamically provision PV for the applications. 
 
-<img src="/docs/assets/pvcspc.png" alt="PVC and Storage Pool relationship" width="700"/>
+<a href="/docs/assets/pvcspc.png" target="_blank"><img src="/docs/assets/pvcspc.png" alt="PVC and Storage Pool relationship" width="700"/></a>
 
 <br>
 
@@ -148,7 +148,7 @@ kubectl get volumesnapshots -n <namespace>
 
 
 
-<br><img src="/docs/assets/snapshot-scope.png" alt="cStor components" width="800"/>
+<br><a href="/docs/assets/snapshot-scope.png" target="_blank"><img src="/docs/assets/snapshot-scope.png" alt="cStor components" width="800"/></a>
 
 <br>
 
@@ -349,7 +349,7 @@ This issue is fixed in 0.8.1 version.
 
 ### Custom resources related to cStor
 
-<br><img src="/docs/assets/cstor-cr.png" alt="cStor custom resources" width="900"/>
+<br><a href="/docs/assets/cstor-cr.png" target="_blank"><img src="/docs/assets/cstor-cr.png" alt="cStor custom resources" width="900"/></a>
 
 <br>
 

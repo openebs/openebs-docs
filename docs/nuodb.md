@@ -44,7 +44,7 @@ NuoDB’s distributed SQL database combines the elastic scale and continuous ava
 
 
 
-<img src="/docs/assets/svg/nuodb-deployment.svg" alt="OpenEBS and NuoDB" style="width:100%;">
+<a href="/docs/assets/svg/nuodb-deployment.svg" target="_blank"><img src="/docs/assets/svg/nuodb-deployment.svg" alt="OpenEBS and NuoDB" style="width:100%;"></a>
 
 <br>
 

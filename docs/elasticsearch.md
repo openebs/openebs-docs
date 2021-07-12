@@ -29,7 +29,7 @@ Advantages of using OpenEBS LocalPV for Elasticsearch database:
 ## Deployment model
 
 <br>
-<img src="/docs/assets/svg/Local-PV-Devices-elastic-deployment.svg" alt="OpenEBS and Elasticsearch" style="width:100%;">
+<a href="/docs/assets/svg/Local-PV-Devices-elastic-deployment.svg" target="_blank"><img src="/docs/assets/svg/Local-PV-Devices-elastic-deployment.svg" alt="OpenEBS and Elasticsearch" style="width:100%;"></a>
 
 The Local PV volume will be provisioned on a node where Elasticsearch components are getting scheduled and uses one of the matching unclaimed block device for each of them, which will then use the entire block device for storing data. No other application can use this device. If users have limited blockdevices attached to some nodes, they can use `nodeSelector` in the application YAML to provision applications on particular nodes where the available block device is present. The recommended configuration is to have at least three nodes and two unclaimed external disk to be attached per node. 
 

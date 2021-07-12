@@ -29,7 +29,7 @@ Whether you use OpenEBS Local PV or cStor, you can set up the Kubernetes cluster
 
 <br>
 
-<img src="/docs/assets/svg/cassandra-deployment.svg" alt="OpenEBS and Cassandra" style="width:100%;">
+<a href="/docs/assets/svg/cassandra-deployment.svg" target="_blank"><img src="/docs/assets/svg/cassandra-deployment.svg" alt="OpenEBS and Cassandra" style="width:100%;"></a>
 
 <br>
 

@@ -6,7 +6,7 @@ sidebar_label: cStor
 ------
 <br>
  
-<img src="/docs/assets/svg/3-config-sequence.svg" alt="OpenEBS configuration flow" style="width:100%">
+<a href="/docs/assets/svg/3-config-sequence.svg" target="_blank"><img src="/docs/assets/svg/3-config-sequence.svg" alt="OpenEBS configuration flow" style="width:100%"></a>
  
 <br>
 <br>

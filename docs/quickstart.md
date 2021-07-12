@@ -32,7 +32,7 @@ OpenEBS seamlessly integrates into the overall workflow tooling that Kubernetes 
 The OpenEBS workflow fits nicely into the reconcilation pattern introduced by Kubernetes, paving the way for a Declarative Storage Control Plane as shown below: 
 
 <br>
-<img src="/docs/assets/control-plane-overview.svg" alt="drawing" width="80%"/>
+<a href="/docs/assets/control-plane-overview.svg" target="_blank"><img src="/docs/assets/control-plane-overview.svg" alt="drawing" width="80%"/></a>
 <br>
 
 

@@ -21,7 +21,7 @@ In spite of doing all of the above, NDM contributes to overall ease of provision
 
 <br>
 
-<img src="/docs/assets/svg/ndm.svg" alt="NDM Architecture" style="width:80%">
+<a href="/docs/assets/svg/ndm.svg" target="_blank"><img src="/docs/assets/svg/ndm.svg" alt="NDM Architecture" style="width:80%"></a>
 
 <br>
 

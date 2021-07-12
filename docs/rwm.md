@@ -19,7 +19,7 @@ The rest of this document contains instructions about the NFS server provisioner
 
 <br><br>
 
-<img src="/docs/assets/svg/rwm-single.svg" alt="OpenEBS and NFS provisioner" style="width:100%;">
+<a href="/docs/assets/svg/rwm-single.svg" target="_blank"><img src="/docs/assets/svg/rwm-single.svg" alt="OpenEBS and NFS provisioner" style="width:100%;"></a>
 
 <br>	
 
@@ -104,7 +104,7 @@ When multiple NFS shares are needed, use multiple NFS provisioners. Each NFS ser
 
 
 
-<img src="/docs/assets/svg/rwm-multiple.svg" alt="OpenEBS and NFS provisioner" style="width:100%;">
+<a href="/docs/assets/svg/rwm-multiple.svg" target="_blank"><img src="/docs/assets/svg/rwm-multiple.svg" alt="OpenEBS and NFS provisioner" style="width:100%;"></a>
 
 
 

@@ -22,7 +22,7 @@ Percona XtraDB Cluster can be provisioned with OpenEBS volumes using OpenEBS sto
 
 <br>
 
-<img src="/docs/assets/svg/percona-deployment-new.svg" alt="OpenEBS and Percona" style="width:100%;">
+<a href="/docs/assets/svg/percona-deployment-new.svg" target="_blank"><img src="/docs/assets/svg/percona-deployment-new.svg" alt="OpenEBS and Percona" style="width:100%;"></a>
 
 This tutorial provides detailed instructions to run a Percona XtraDB Cluster(PXC) with OpenEBS Local PV and perform some simple database operations to verify the successful deployment and it's performance benchmark.
 

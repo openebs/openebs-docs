@@ -27,7 +27,7 @@ Use OpenEBS and MySQL containers to quickly launch an RDS like service, where da
 
 <br>
 
-<img src="/docs/assets/svg/mysql-deployment.svg" alt="OpenEBS and Percona" style="width:100%;">
+<a href="/docs/assets/svg/mysql-deployment.svg" target="_blank"><img src="/docs/assets/svg/mysql-deployment.svg" alt="OpenEBS and Percona" style="width:100%;"></a>
 
 
 

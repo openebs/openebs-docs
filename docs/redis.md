@@ -40,7 +40,7 @@ _Note: Redis can be deployed both as `Deployment` or as `StatefulSet`. When Redi
 
 <br>
 
-<img src="/docs/assets/svg/redis-deployment.svg" alt="OpenEBS and Redis" style="width:100%;">
+<a href="/docs/assets/svg/redis-deployment.svg" target="_blank"><img src="/docs/assets/svg/redis-deployment.svg" alt="OpenEBS and Redis" style="width:100%;"></a>
 
 <br>
 

@@ -32,7 +32,8 @@ The objective of this section is to provide the user and evaluator of Mayastor w
 More detailed guides to Mayastor's components, their design and internal structure, and instructions for building Mayastor from source, are maintained within the [project's GitHub repository](https://github.com/openebs/Mayastor).
 
 ### Topology
-![Figure 1. Example cluster deployment configured with three Mayastor Storage Nodes](../assets/mayastor_basic_cluster_topology.png)
+<a href="../assets/mayastor_basic_cluster_topology.png" target="_blank"><img src="../assets/mayastor_basic_cluster_topology.png"></a>
+
 
 ### Dramatis Personae
 

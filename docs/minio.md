@@ -24,7 +24,7 @@ This document provides the instructions to setup MinIO operator using OpenEBS Lo
 
 ## Deployment model
 
-<img src="/docs/assets/svg/Local-PV-Distributed-device-minio.svg" alt="OpenEBS and MinIO Distributed localpv device" style="width:100%;">
+<a href="/docs/assets/svg/Local-PV-Distributed-device-minio.svg" target="_blank"><img src="/docs/assets/svg/Local-PV-Distributed-device-minio.svg" alt="OpenEBS and MinIO Distributed localpv device" style="width:100%;"></a>
 
 In this tutorial, Local PV volume will be provisioned on the node where the application has scheduled and one of the unclaimed and active blockdevice available on the same node will be used to provision the MinIO Object storage. This blockdevice cannot be used by another application. If there are limited blockdevices attached to some of the nodes, then users can use `nodeSelector` in the application YAML to provision application on a particular node where the available blockdevice is present. 
 

@@ -36,7 +36,7 @@ MongoDB is a cross-platform document-oriented database. Classified as a NoSQL da
 
 <br>
 
-<img src="/docs/assets/svg/mongo-deployment.svg" alt="OpenEBS and Mongo" style="width:100%;">
+<a href="/docs/assets/svg/mongo-deployment.svg" target="_blank"><img src="/docs/assets/svg/mongo-deployment.svg" alt="OpenEBS and Mongo" style="width:100%;"></a>
 
 <br>
 

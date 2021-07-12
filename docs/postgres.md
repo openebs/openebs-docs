@@ -20,7 +20,7 @@ This guide explains the basic installation for StackGres PostgreSQL on OpenEBS L
 
 ## Deployment model
 
-<img src="/docs/assets/svg/StackGres-Postgres-LocalPV.svg" alt="OpenEBS and StackGres PostgreSQL localpv device" style="width:100%;">
+<a href="/docs/assets/svg/StackGres-Postgres-LocalPV.svg" target="_blank"><img src="/docs/assets/svg/StackGres-Postgres-LocalPV.svg" alt="OpenEBS and StackGres PostgreSQL localpv device" style="width:100%;"></a>
 
 We will use GKE, where we will install Stackgres PostgreSQL with OpenEBS storage engine. The Local PV volume will be provisioned on a node where Stackgres PostgreSQL pod is getting scheduled and uses one of the matching unclaimed block devices, which will then use the entire block device for storing data. No other application can use this device. If users have limited blockdevices attached to some nodes, they can use `nodeSelector` in the application YAML to provision applications on particular nodes where the available block device is present. The recommended configuration is to have at least three nodes and one unclaimed external disk to be attached per node. 
 

@@ -18,7 +18,7 @@ In this document, we will explain how you can easily set up a monitoring environ
 
 
 
-<img src="/docs/assets/svg/localpv-device-prometheus-deployment.svg" alt="OpenEBS and Prometheus localpv device" style="width:100%;">
+<a href="/docs/assets/svg/localpv-device-prometheus-deployment.svg" target="_blank"><img src="/docs/assets/svg/localpv-device-prometheus-deployment.svg" alt="OpenEBS and Prometheus localpv device" style="width:100%;"></a>
 
 
 
